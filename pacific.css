@@ -1,29 +1,92 @@
 body { background-color: #FFFFFF;
       color: #666666;
 	  font-family: Verdana, Arial, sans-serif;
+
 }
 header { background-color: #000033;
          color: #FFFFFF;
-		 font-family: Georgia, serif; 
+		 font-family: Georgia, serif;
+     background-repeat: no-repeat;
+     text-align: left;
+     display: block;
+
+
 }
-h1 { line-height: 200%; }
+main{
+  background-color: #ffffff;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 170px;
+  display: block;
+}
+#sunset {
+  background-image: url(sunset.jpg);
+  float: right;
+}
+
+h1 { line-height: 200%;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 2em;
+  height: 72px;
+  margin-bottom: 0%;
+}
 nav { font-weight: bold;
-      background-color: #90C7E3; 
+  float: left;
+  width: 160px;
+  padding: 0px;
+  display: block;
 }
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: : 1em;
+}
+#homehero{
+  margin-left: 0px;
+  width: 829px;
+  float: left;
+  background-image: url(coast.jpg);
+  background-repeat: no-repeat;
+
+}
+#trailhero{
+  margin-leftt: 170px;
+  background-image: url(trail.jpg);
+  background-repeat: no-repeat;
+}
+
+nav a:link {color: #ffffff;}
+nav a:visited {color: #c2e0f0;}
+nav a:hover {color: #cccccc;}
+
 h2 { color: #3399CC;
      font-family: Georgia, serif;
+     margin-left: 0px;
 }
-dt { color: #000033; 
-   font-weight: bold; 
+h3{
+  color: #000033;
+  margin-left: 200px;
+}
+dt { color: #000033;
+   font-weight: bold;
 }
 .resort { color: #000033;
           font-size: 1.2em;
 }
 footer { font-size: .70em;
          font-style: italic;
-		 text-align: center; 
+		 text-align: center;
+     margin-left: 170px;
+     background-color: #ffffff;
+     display: block;
 }
 #wrapper { width: 80%;
+  background-color: #000033;
           margin-left: auto;
 		  margin-right: auto;
+      min-width: 700px;
+      max-width: 1024px;
+      box-shadow: 5px 5px 5px black;
+
 }
